@@ -1,0 +1,1148 @@
+@font-face {
+    font-family: 'montserratultralight';
+    src: url('../fonts/Montserrat/montserrat-ultralight-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/Montserrat-UltraLight.otf') format('otf'),
+         url('../fonts/Montserrat/montserrat-ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../fonts/Montserrat/montserrat-light-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/Montserrat-Light.otf') format('otf'),
+         url('../fonts/Montserrat/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/Montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/Montserrat-Regular.otf') format('otf'),
+         url('../fonts/Montserrat/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/Raleway/raleway-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Raleway/Raleway-Regular.ttf') format('ttf'),
+         url('../fonts/Raleway/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('../fonts/Raleway/raleway-medium-webfont.woff2') format('woff2'),
+         url('../fonts/Raleway/Raleway-Medium.ttf') format('ttf'),
+         url('../fonts/Raleway/raleway-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/Raleway/raleway-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Raleway/Raleway-Bold.ttf') format('ttf'),
+         url('../fonts/Raleway/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('../fonts/Raleway/raleway-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/Raleway/Raleway-SemiBold.ttf') format('ttf'),
+         url('../fonts/Raleway/raleway-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewayextrabold';
+    src: url('../fonts/Raleway/raleway-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/Raleway/Raleway-ExtraBold.ttf') format('ttf'),
+         url('../fonts/Raleway/raleway-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/Roboto/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto/Roboto-Regular.ttf') format('ttf'),
+         url('../fonts/Roboto/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+/**************************************************
+00.Needed info
+***************************************************/
+/* #c7b299 ngjyra kafe e faqes */
+
+body {
+	font-family: 'montserratlight';
+    font-size: 14px;
+    line-height: 28px;
+	background-color: lightgray;
+	color: #8c8c8c;
+}
+ul {
+	list-style-type: none;
+    padding: 0;
+}
+a {
+    text-decoration: none !important;
+}
+
+
+/**************************************************
+01.Navigation
+***************************************************/
+.navbar-default {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-color: transparent;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #998675;
+   transition: all 0.2s ease-in-out;
+}
+.logo img {
+	width: 64px;
+	margin-top: -22px;
+}
+/*.navbar .logo::after {
+    display: inline-block;
+    content: "";
+    width: 115px;
+    height: 26px;
+    background: url("../img/waxom.png") no-repeat;
+}
+.navbar a.logo1 {
+	float: none;
+}
+.navbar .logo img {
+	float: left;
+}
+*/
+
+
+/**************************************************
+02.Slider
+***************************************************/
+#slider {
+	background-image: url("../img/bg01.png");
+    background-position: center top;
+  /*  background-attachment: fixed;
+*/	background-size: cover;
+	position: relative;
+    padding: 380px 0;
+}
+#slider .container {
+	position: relative;
+}
+.bgoverlay {
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.slider1 {
+    color: #fff;
+}
+.slider1 h1 {
+    font-family: 'ralewayextrabold';
+    font-size: 52px;
+    margin: 0 0 30px 0;
+}
+.h1-slider {
+    font-family: 'ralewaymedium';
+    font-size: 36px;
+}
+.slider1 p {
+   font-family: 'montserratlight';
+   font-size: 16px;
+   margin-bottom: 55px;
+}
+.slider1  .btn-default {
+    text-transform: uppercase;
+    border-color: #998675;
+    background-color: #998675;
+    color: #fff;
+    border-bottom: 3px solid #736357;
+}
+.slider1 .btn {
+	font-family: 'ralewaybold';
+	font-size: 14px;
+	line-height: 23px;
+	padding: 12px 30px;
+}
+
+
+
+
+/**************************************************
+03.Services
+***************************************************/
+.services1 {
+  background-color: #fff;
+  padding: 80px 0;
+}
+.services1 .col-sm-6,
+.services1 .col-xs-12 {
+	margin-bottom: 20px;
+}
+.services1 img {
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+.services1 a {
+  color: #555;
+  font-family: 'ralewaysemibold';
+  font-size: 22px;
+  
+}
+.services1 p {
+  font-family: 'montserratlight';
+  font-size: 14px;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+.hr-color {
+  width: 70px;
+  border: 1.5px solid #f1eee9;
+}
+.ser-hover:hover .hr-color{
+	border-color: #c7b299;
+	transition: all 0.2s ease-in-out;
+} 
+.ser-hover:hover a{
+	color: #c7b299;
+	transition: all 0.2s ease-in-out;
+} 
+/*.ser-hover:hover .img-hover-1 {
+   content: url("../img/1-hover.png");
+   transition: all 0.4s ease-in-out;
+}
+.ser-hover:hover .img-hover-2 {
+   content: url("../img/2-hover.png");
+   transition: all 0.4s ease-in-out;
+}
+.ser-hover:hover .img-hover-3 {
+   content: url("../img/3-hover.png");
+   transition: all 0.4s ease-in-out;
+}
+.ser-hover:hover .img-hover-4 {
+   content: url("../img/4-hover.png");
+   transition: all 0.4s ease-in-out;
+}
+
+*/
+
+
+/**************************************************
+04.Ideas
+***************************************************/
+.ideas1 {
+    background-color: #fbfaf8;
+	padding-top: 85px;
+}
+.ideas1 h2 {
+  color: #555;
+  font-family: 'ralewaysemibold';
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.ideas1 p {
+  font-family: 'montserratlight';
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+/* prova kot */
+
+.ideas1 .pos1 {
+	left: 0;
+	z-index: 1
+}
+.ideas1 .pos3 {
+	right: 0;
+	z-index: 1;
+}
+.ideas1 .pos2 {
+	z-index: 3;
+}
+
+
+
+
+/**************************************************
+05.Text Boxes
+***************************************************/
+.text-boxes1 {
+	background-image: url("../img/bg-text.png");
+  background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+  padding: 50px 0; 
+}
+.text-boxes1 h2 {
+    color: #fff;
+    font-family: 'ralewayregular';
+    font-size: 28px;
+    margin: 0 0 7px 0;
+}
+.color-h2 {
+    color: #c7b299;
+}
+.text-boxes1  p{
+   color: #615855;
+   font-family: 'montserratlight';
+   font-size: 18px;
+   margin: 0;
+}
+.text-boxes1  .btn-default {
+    text-transform: uppercase;
+    border-color: #998675;
+    background-color: #998675;
+    color: #fff;
+    border-bottom: 3px solid #736357;
+}
+.text-boxes1  .btn-default:hover {
+	color: #998675;
+	background-color: #fff;
+	transition: all 0.2s ease-in-out;
+}
+.text-boxes1 .btn {
+	font-family: 'ralewaybold';
+	font-size: 14px;
+	line-height: 23px;
+	padding: 13px 35px;
+}
+
+
+
+/**************************************************
+06.Projects
+***************************************************/
+.projects1 {
+  background-color: #fff;
+	padding: 80px 0;
+}
+.projects1 h2 {
+  color: #555;
+  font-family: 'ralewaysemibold';
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.projects1 p {
+  font-family: 'montserratlight';
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.projects1 .btn-default {
+  text-transform: uppercase;
+  border-color: #998675;
+  background-color: #998675;
+  color: #fff;
+  border-bottom: 3px solid #736357;
+}
+.projects1  .btn-default:hover {
+	color: #998675;
+	background-color: #fff;
+	transition: all 0.2s ease-in-out;
+}
+.projects1 .btn {
+	font-family: 'ralewaybold';
+	font-size: 14px;
+	line-height: 23px;
+	padding: 13px 45px;
+}
+.projects1 ul.projects-list {
+  margin-bottom: 40px;
+  float: none;
+  display: inline-block;
+}
+.projects1 ul.projects-list li a {
+  font-family: 'montserratlight';
+  font-size: 14px;
+ /* line-height: 21px;*/
+  color: #8c8c8c;
+  border: 1px solid #ebebeb;
+  margin: 0 5px;
+  border-radius: 4px;
+  padding: 10px 30px;
+}
+.projects1 ul.projects-list li a:focus,
+.projects1 ul.projects-list li a:hover {
+  color: #fff;
+  background-color: #998675;
+}
+.projects1 ul.projects-list li a.active {
+  color: #fff;
+  background-color: #998675;
+}
+.projects1 .thumbnail {
+  border-radius: 0;
+  border: none;
+  padding: 0;
+}
+.projects1 .thumbnail img.img-width{
+  width: 100%;
+}
+.projects1 .caption {
+  padding: 25px;
+  background-color: #fbfaf8;
+  position: relative;
+}
+.projects1 .caption:before {
+  content: "";
+  width: 30px;
+  height: 12px;
+  position: absolute;
+  left: 19px;
+  top: -11px;
+  background: url("../img/arrow-com.png");
+}
+.projects1 .thumbnail:hover .caption{
+  background-color: #362f2d;
+}
+.projects1 .thumbnail:hover .caption:before{
+  background: url("../img/arrow-com-hover.png");
+}
+.projects1 .thumbnail:hover h4{
+  color: #fff;
+}
+.projects1 .thumbnail:hover p{
+  color: #c7b299;
+}
+.projects1 .thumbnail h4 {
+  font-family: 'ralewaymedium';
+  font-size: 20px;
+  color: #c7b299;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.projects1 .thumbnail p {
+  font-family: 'montserratlight';
+  font-size: 14px;
+  color: #d1d1d1;
+  margin: 0;
+}
+.projects1 .margin-bottom {
+  margin-bottom: 40px;
+}
+.projects1 ul.project-link-list {
+  margin: 0;
+}
+.projects1 ul.project-link-list li{
+  display: inline-block;
+  margin: 0 10px;
+}
+/*  Prova!!!  */
+.projects1 .hovereffect {
+ 
+  position: relative;
+}
+.projects1 .overlay {
+  /*background-color: #000;
+  opacity: 0.5;*/
+  top: 96px;
+  left: 35%;
+  position: absolute;
+  z-index: 10000;
+}
+
+
+
+
+/* PROVA2!!!!!! */
+.projects1 .top-imazhi {
+  margin-bottom: 30px;
+}
+.projects1 .imazhi {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+}
+.projects1 .imazhi img.img-width{
+  width: 100%;
+}
+.projects1 .shkrimi {
+  padding: 25px;
+  background-color: #fbfaf8;
+}
+.projects1 .shkrimi h4 {
+  font-family: 'ralewaymedium';
+  font-size: 20px;
+  color: #c7b299;
+  margin-top: 0;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+.projects1 .shkrimi p {
+  font-family: 'montserratlight';
+  font-size: 14px;
+  color: #d1d1d1;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+.projects1 .top-imazhi:hover .shkrimi h4{
+  color: #fff;
+}
+.projects1  .top-imazhi:hover .shkrimi p{
+  color: #c7b299;
+}
+.projects1 .shkrimi {
+  padding: 25px;
+  background-color: #fbfaf8;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.projects1 .shkrimi:before {
+  content: "";
+  width: 30px;
+  height: 12px;
+  position: absolute;
+  left: 19px;
+  top: -11px;
+  background: url("../img/arrow-com.png");
+  transition: all 0.3s ease;
+}
+.projects1 .top-imazhi:hover .shkrimi{
+  background-color: #362f2d;
+}
+.projects1 .top-imazhi:hover .shkrimi:before{
+  background: url("../img/arrow-com-hover.png");
+}
+.projects1 ul.lista-hover {
+  margin: 0;
+}
+.projects1 ul.lista-hover li{
+  display: inline-block;
+  margin: 0 10px;
+}
+.projects1 .hover-effect {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  margin: 0 auto;
+  padding: 28%;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.projects1 .top-imazhi:hover .hover-effect {
+   opacity: 1;
+}
+.projects .lista-hover a:hover img {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* END  PROVA!!!!!! */
+
+
+
+
+
+/**************************************************
+07.Video Presentation
+***************************************************/
+.video1 {
+	background-image: url("../img/bg02-video.png");
+    /*background-attachment: fixed;*/
+  background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+  position: relative;
+  padding: 210px 0;
+  color: #fff;
+}
+.video1 .container {
+  position: relative;
+}
+.bg-overlay-video {
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.video1 img {
+	margin: 0 auto;
+  background-color: rgba(0,0,0,0.2);
+  padding: 10px;
+  border-radius: 50%;
+}
+.video1 h2 {
+  font-family: 'ralewaymedium';
+  font-size: 30px;
+  margin-top: 44px;
+  margin-bottom: 30px;
+}
+.video1 p {
+  font-size: 16px;
+  font-family: 'montserratlight';
+  margin-bottom: 30px;
+}
+p.time {
+    color: #c7b299;
+    margin: 0;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+/**************************************************
+08.Mobile Devices 
+***************************************************/
+.mobile-devices1 {
+    background-color: #fbfaf8;
+	padding-top: 80px;
+}
+.mobile-devices1 img {
+    float: right;
+}
+.mobile-devices1 h2 {
+  color: #555;
+  font-family: 'ralewaysemibold';
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.mobile-devices1 p {
+  font-family: 'montserratlight';
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.mobile-devices1 a {
+  font-family: 'montserratlight';
+  font-size: 16px;
+  color: #8c8c8c;
+}
+.mobile-devices1 a:hover {
+   color: #c7b299;
+   transition: all 0.2s ease-in-out;
+}
+.mobile-devices1 li:before {
+    display: inline-block;
+    content: "";
+    width: 21px;
+    height: 21px;
+    background: url("../img/arrow01.png") no-repeat;
+    float: left;
+    margin-right: 30px;
+}
+
+
+
+/**************************************************
+09.Counters 
+***************************************************/
+.counters1 {
+	background-image: url("../img/bg-counter.png");
+  background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+  font-family: 'montserratultralight';
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+.counters1 img {
+	margin: 0 auto;
+}
+.counters1 h3 {
+    font-size: 38px;
+    color: #fff;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.counters1 p {
+    font-size: 16px;
+    color: #c7b299;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.color-hr-2 {
+   width: 30px;
+   border: 1px solid #fff;
+}
+.col-sm-20,
+.col-md-20,
+.col-lg-20 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 20%;
+}
+
+
+/**************************************************
+10.Recent Posts
+***************************************************/
+.posts1 {
+    background-color: #fff;
+	padding: 80px 0;
+}
+.posts1 h2 {
+  color: #555;
+  font-family: 'ralewaysemibold';
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.posts1 p {
+  font-family: 'montserratlight';
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.posts1 .fa {
+	color: #d1d1d1;
+	font-size: 17px;
+}
+.posts1 .fa:hover {
+	color: #c7b299;
+}
+
+
+/**   Prova!!!!  **/
+
+
+
+
+
+.koti .img01 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+}
+.koti .img01 img.img-width{
+  width: 100%;
+}
+.koti .comment01 {
+  padding: 25px;
+  background-color: #fbfaf8;
+}
+.koti .comment01 h4 {
+   margin-top: 0;
+   margin-bottom: 20px;
+}
+.koti .comment01 a.link-style {
+  font-family: 'ralewaymedium';
+  font-size: 20px;
+  color: #c7b299;
+}
+.koti .comment01 p {
+  font-family: 'montserratlight';
+  font-size: 14px;
+  color: #d1d1d1;
+  line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.koti .top-img01:hover .comment01 a.link-style{
+  color: #fff;
+}
+.koti .top-img01:hover .comment01 p{
+  color: #c7b299;
+}
+.koti .top-img01:hover .comment01{
+  background-color: #362f2d;
+}
+.koti .comment01 a.read-more {
+  color: #c7b299;
+  font-size: 14px;
+}
+.koti .top-img01:hover .comment01 a.read-more {
+  color: #fff;
+}
+.koti .comment01 a.read-more::after {
+    display: inline-block;
+    content: "";
+    width: 5px;
+    height: 8px;
+    background: url("../img/arrow02-brown.png") no-repeat;
+    margin-left: 10px;
+}
+.koti .top-img01:hover .comment01 a.read-more::after {
+    background: url("../img/arrow02-white.png") no-repeat; 
+}
+.koti .img01 li.li-date {
+  color: #fff;
+  font-family: 'montserratlight';
+  background-color: #363636;
+  font-size: 25px;
+  padding: 6px 12px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.koti .img01 li.li-month {
+  color: #fff;
+  font-family: 'montserratlight';
+  background-color: #252525;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.koti .top-img01:hover .img01 li.li-date {
+  color: #fff;
+  background-color: #c7b299;
+}
+.koti .top-img01:hover .img01 li.li-month {
+  color: #fff;
+  background-color: #a48d72;
+}
+.koti .img01-hover-effect {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  margin: 0 auto;
+  /*padding: 28%;*/
+  opacity: 0;
+  /*transition: all 0.3s ease;*/
+}
+.koti .top-img01:hover .img01-hover-effect {
+   opacity: 1;
+}
+.koti ul.img01-lista-hover {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+/**  End-Prova!!!!  **/
+
+
+/**************************************************
+11.Partners
+***************************************************/
+.partners1 { 
+	background-image: url("../img/bg03.png");
+   /* background-attachment: fixed;*/
+    background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	padding-top: 140px;
+	padding-bottom: 130px;
+}
+.partners1 .container {
+    position: relative;
+}
+.bg-overlay-partners {
+   background-color: rgba(0,0,0,0.6);
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+
+
+
+/**************************************************
+12.Footer
+***************************************************/
+.footer1 {
+	line-height: 20px;
+	color: #555555;
+}
+.footer1 h3 {
+    color: #fff;
+    margin-bottom: 33px;
+} 
+.footer1 p {
+    margin-bottom: 20px;
+}
+.footer-top li {
+	border-bottom: 1px solid #252525;
+}
+.footer-top li:last-child {
+	border: none;
+}
+.footer-l-h {
+	line-height: 24px;
+}
+/*footer-top*/
+
+.footer-top {
+  background-color: #191919;
+  padding: 80px 0;
+}
+.footer-top img.logo {
+  margin-bottom: 33px;
+}
+.footer-top .logo::after {
+    display: inline-block;
+    content: "";
+    width: 115px;
+    height: 26px;
+    background: url("../img/waxom.png") no-repeat;
+}
+.footer-top a.logo1 {
+	float: none;
+}
+.footer-top .logo img {
+	float: left;
+}
+.footer-top a.read-more {
+    color: #d1d1d1;
+    font-family: 'montserratregular';
+    line-height: 20px;
+}
+.footer-top a.read-more:focus,
+.footer-top a.read-more:hover {
+   color: #fff;
+   transition: all 0.2s ease-in-out;
+}
+.footer-top a.read-more::after {
+    display: inline-block;
+    content: "";
+    width: 5px;
+    height: 8px;
+    background: url("../img/arrow02.png") no-repeat;
+    margin-left: 10px;
+}
+.color-000 {
+	color: #00bff3;
+}
+.footer-top a.color-000:focus,
+.footer-top a.color-000:hover {
+	color: #65dafa;
+	transition: all 0.2s ease-in-out;
+}
+.color-001 {
+	color: #959595;
+} 
+.color-001:hover {
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+} 
+.date {
+	font-size: 12px;
+	color: #363636;
+}
+.time {
+	font-size: 12px;
+	color: #363636;
+}
+.a002 p {
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+.footer-top li {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.footer-top li:first-child {
+	padding-top: 5px;
+}
+.hover-list:hover .date {
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+}
+.hover-list:hover a {
+	color: #c7b299;
+	transition: all 0.2s ease-in-out;
+}
+.a002 a{
+	color: #555555;
+}
+.a003 p {
+    margin-bottom: 5px;
+}
+.dribbble-pics {
+	margin-left: 0;
+    overflow: hidden;
+}
+.dribbble-pics li {
+	padding: 0 !important;
+	border: none;
+	width: 45%;
+    display: inline-block;
+    border-bottom: none;
+    margin: 0 10px 10px 0;
+    padding: 0;
+    float: left;
+}
+.dribbble-pics li img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+.li-overlay:hover {
+	opacity: 0.7;
+	transition: all 0.2s ease-in-out;
+}
+
+
+/*footer-bottom*/
+
+.footer-bottom {
+  font-size: 13px;
+  background-color: #111111;
+  padding: 45px 0;
+}
+.copyright li{
+  float: left;
+} 
+.copyright a {
+	color: #555555;
+}
+.copyright a.color-copy {
+	color: #959595;
+}
+.footer-bottom li{
+  float: left;
+  padding: 0 10px;
+  border-right: 1px solid #252525;
+}
+.footer-bottom li:last-child {
+	border: none;
+} 
+.copyright a:focus,
+.copyright a:hover  {
+    color: #c7b299;
+    transition: all 0.2s ease-in-out;
+}
+.copyright a.color-copy:focus,
+.copyright a.color-copy:hover {
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+}
+.design a {
+	color: #959595;
+}
+.design a:focus,
+.design a:hover {
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+/* prova koti*/
+.navbar .container {
+	position: relative;
+}
+.tao {
+	position: absolute;
+	right: 0;
+    top: 11px;
+}
+.tao1 li {
+	display: inline-block;
+	margin-left: 20px;
+}
+.navbar .collapse {
+   margin-right: 100px;
+}
+
+
+/**************************************************
+12.5.Prova Fixed Button 
+***************************************************/
+.fixed-button .btn{
+   position: fixed;
+   top: 55%;
+   right: 0;
+   background-color: #998675;
+   border-radius: 0;
+   border: 4px solid #998675;
+   color: #fff;
+   padding: 15px 20px;
+   z-index: 9999;
+   text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+.fixed-button .btn:focus,
+.fixed-button .btn:hover{
+   background-color: #fff;
+   border: 4px solid #998675;
+   color: #998675;
+
+}
+
+
+
+
+
+
+/**************************************************
+13.Media Queries
+***************************************************/
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+    @media only screen and (min-width : 480px) {
+    .ideas1 .part-1{
+      position: relative;
+    }
+    .ideas1 .part-2{
+			position: relative;
+		}
+		.ideas1 .pos1,
+		.ideas1 .pos2,
+		.ideas1 .pos3 {
+			position: absolute;
+			bottom: 0;
+    }
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
