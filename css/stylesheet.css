@@ -101,6 +101,7 @@ a {
 	border-color: transparent;
 	padding-top: 40px;
 	padding-bottom: 30px;
+  transition:  0.7s ease-in-out;
 }
 .navbar-default .navbar-nav>li>a {
     color: #fff;
@@ -113,6 +114,7 @@ a {
 .logo img {
 	width: 64px;
 	margin-top: -22px;
+  transition:  0.7s ease-in-out;
 }
 /*.navbar .logo::after {
     display: inline-block;
@@ -1100,7 +1102,17 @@ p.time {
 
 
 
-
+/**** prova jquery ****/
+.padding-nav1 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  transition:  0.7s ease-in-out;
+}
+.logo-nav1 {
+  width: 50px !important;
+  margin-top: -15px !important;
+  transition:  0.7s ease-in-out;
+}
 
 
 /**************************************************
