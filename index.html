@@ -941,11 +941,27 @@
   
   //Check to see if the window is top if not then display button
   $(window).scroll(function(){
-    if ($(this).scrollTop() > 200) {
+    if ($(this).scrollTop() > 1000) {
       $('.scrollToTop').fadeIn();
     } else {
       $('.scrollToTop').fadeOut();
     }
+  });
+
+  //Check to see if the navbar change padding
+  $(window).scroll(function(){
+      if ($(this).scrollTop() > 200) {
+          $('.navbar').addClass('padding-nav1');
+      } else {
+          $('.navbar').removeClass('padding-nav1');
+      }
+  });
+  $(window).scroll(function(){
+      if ($(this).scrollTop() > 200) {
+          $('.logo>img').addClass('logo-nav1');
+      } else {
+          $('.logo>img').removeClass('logo-nav1');
+      }
   });
   
   //Click event to scroll to top-imazhi
